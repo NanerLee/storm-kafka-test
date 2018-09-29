@@ -12,7 +12,7 @@ import org.apache.storm.topology.TopologyBuilder;
 public class StormKafkaSecurityTopology {
 
     public static void main(String[] args) throws AlreadyAliveException, InvalidTopologyException, AuthorizationException {
-        String servers = "NM-304-SA5212M4-BIGDATA-673:9091";
+        String servers = "kafka-server1:9091";
         String inTopicName = "storm-security-test-in";
         String outTopicName = "storm-security-test-out";
 

@@ -15,7 +15,7 @@ import org.apache.storm.utils.Utils;
 public class StormKafkaTopology {
 
     public static void main(String[] args) throws AlreadyAliveException, InvalidTopologyException, AuthorizationException {
-        String servers = "NM-304-SA5212M4-BIGDATA-673:9092";
+        String servers = "kafka-server1:9092";
         String inTopicName = "storm-test-in";
         String outTopicName = "storm-test-out";
 
